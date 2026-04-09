@@ -8,7 +8,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Adiciona um marcador na localização da loja
-L.marker([-23.561684, -46.655981])
+L.marker([-23.689490096938737, -46.552940125901245])
   .addTo(map)
-  .bindPopup("Loja Exemplo<br>Rua das Flores, 123 - São Paulo/SP")
+  .bindPopup("Faculdade Anhanguera<br>R. Atlântica - Jardim do Mar, São Bernardo do Campo - SP")
   .openPopup();
